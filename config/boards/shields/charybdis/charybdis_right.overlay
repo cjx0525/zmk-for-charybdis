@@ -75,5 +75,3 @@
         device = <&trackball>;
     };
 };
-
-
