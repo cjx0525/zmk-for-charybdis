@@ -120,7 +120,7 @@
 
         layer_2 {
             bindings = <
-&kp MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP    &kp C_NEXT    &kp C_PREV    &none      &none    &none    &none      &none    &none
+&kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP    &kp C_NEXT    &kp C_PREV    &none      &none    &none    &none      &none    &none
 &none      &kp LCTRL     &kp LALT      &kp LSHFT   &kp LGUI      &none         &kp LEFT   &kp DOWN &kp UP   &kp RIGHT  &none    &kp RET
 &none   &kp C_BRI_DN &kp C_BRI_UP    &kp PG_UP     &kp PG_DN   &none         &kp TAB    &kp BSPC &kp F18  &none      &none    &none
                         &none     &none         &none       &none         &none      &none
