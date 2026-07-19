@@ -92,7 +92,7 @@
 &mkp MB2        &kp Q  &kp W  &kp E      &kp R     &kp T       &kp Y     &kp U      &kp I      &kp O    &kp P     &lt 3 BSPC
 &mkp MB1        &kp A  &kp S  &kp D      &kp F     &kp G       &kp H     &kp J      &kp K      &kp L    &kp SEMI  &kp F17
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B       &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mo 4
-                              &kp LALT   &kp LGUI  &lt 1 ESC    &lt 2 SPACE  &kp LCTRL  &mt RSHFT DEL
+                              &lt 1 ESC  &kp LGUI  &kp LALT     &mt RSHFT BSPC  &kp LCTRL  &lt 2 SPACE
             >;
 
             sensor-bindings =
@@ -107,7 +107,7 @@
             bindings = <
 &none   &kp N1  &kp N2  &kp N3          &kp N4     &kp N5          &kp N6     &kp N7     &kp N8          &kp N9    &kp N0     &none
 &none   &kp LCTRL  &kp LALT  &kp LSHFT  &kp LGUI   &kp APOS        &none      &kp RGUI   &kp RSHFT       &kp RALT  &kp RCTRL  &none
-&none   &none   &none   &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &kp BACKSLASH    &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL  &none
+&none   &none   &none   &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &kp BACKSLASH    &kp GRAVE  &kp LBKT        &kp RBKT         &kp MINUS  &kp EQUAL  &none
                         &none  &none     &none          &none      &kp RSHFT  &none
             >;
 
@@ -121,7 +121,7 @@
         layer_2 {
             bindings = <
 &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP    &kp C_NEXT    &kp C_PREV    &none      &none    &none    &none      &none    &none
-&none      &kp LCTRL     &kp LALT      &kp LSHFT   &kp LGUI      &none         &kp LEFT   &kp DOWN &kp UP   &kp RIGHT  &none    &kp RET
+&none      &kp LCTRL     &kp LALT      &kp LSHFT   &kp LGUI      &none         &kp LEFT   &kp DOWN &kp UP   &kp RIGHT    &kp RET  &none
 &none   &kp C_BRI_DN &kp C_BRI_UP    &kp PG_UP     &kp PG_DN   &none         &kp TAB    &kp BSPC &kp F18  &none      &none    &none
                         &none     &none         &none       &none         &none      &none
             >;
